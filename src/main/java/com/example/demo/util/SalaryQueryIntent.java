@@ -1,0 +1,12 @@
+package com.example.demo.util;
+
+public enum SalaryQueryIntent {
+	NET_SALARY,
+	GROSS_SALARY,
+	SALARY,
+	PROFILE_DATA,
+	PROFILE,
+	ACTIVE_PROFILE,
+	SUM_SALARY_BY_DEPARTMENT,
+	MAX_SALARY_BY_DEPARTMENT
+}
