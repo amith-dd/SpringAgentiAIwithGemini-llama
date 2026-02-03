@@ -11,6 +11,9 @@ import com.example.demo.service.SalaryAiService;
 import dev.langchain4j.model.chat.ChatLanguageModel;
 import dev.langchain4j.service.AiServices;
 
+
+
+// these classes are used to orchestrate the AI services and tools and also can handle memory if needed in future
 @Service
 public class SalaryAiOrchestrator {
 	
