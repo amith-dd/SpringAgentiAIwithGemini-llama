@@ -36,10 +36,7 @@ public class AiTool {
 	public double getSalaryById(@P("employee id number")   int id) {
 		return employeeRepo.findById(id).getSalary();
 	}
-	@Tool("get all the employee profiles")
-	public List<Employee> getAllEmployees(){
-		return employeeRepo.findAll();
-	}
+
 	@Tool("get all the employees/profiles by a department")
 	public List<Employee> getEmployeesByDepartment( @P("department name")  String department){
 		return employeeRepo.findBydepartment(department);
